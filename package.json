@@ -1,0 +1,19 @@
+{
+  "name": "sr-design-studio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "浏览器端扩声设计工具（场地建模 / 音箱布置 / 声场分析 / 报告）",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.5"
+  }
+}
